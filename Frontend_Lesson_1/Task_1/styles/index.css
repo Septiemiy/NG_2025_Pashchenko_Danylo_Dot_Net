@@ -1,0 +1,518 @@
+.title-bgimg {
+    width: 100%;
+    height: 600px;
+}
+
+.logo-container {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo span {
+    font-size: 25px;
+    margin-left: 12px;
+    align-self: center;
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(67, 38, 14);
+    letter-spacing: -1px;
+}
+
+.delivery-tel {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+}
+
+.delivery-tel span {
+    font-size: 15px;
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(67, 38, 14);
+}
+
+.nav {
+    position: absolute;
+    top: 57px;
+    right: 35px;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav ul li {
+    font-size: 15px;
+    font-family: 'Arial Black', sans-serif;
+    cursor: pointer;
+    color: rgb(67, 38, 14);
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.nav ul li:hover {
+    color: rgb(154, 81, 21);
+    text-decoration: underline;
+}
+
+.nav ul li a:visited {
+    color: inherit;
+}
+
+.title-burger {
+    position: absolute;
+    top: 120px;
+    right: 130px;
+}
+
+.title-burger img {
+    width: 350px;
+    height: 400px;
+}
+
+.title-burger .price-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(223, 4, 4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-burger .price-bg .price {
+    text-align: center;
+    padding: 6px;
+    border-style: dashed;
+    border-radius: 50%;
+    border-color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 15px;
+    font-family: 'Arial Black', sans-serif;
+    color: white;
+    
+}
+
+.title-burger .price-bg .price span:first-child {
+    font-size: 33px;
+}
+
+.title-burger .price-bg .price span:last-child {
+    letter-spacing: 7px;
+    margin-left: 9px;
+}
+
+.title-text-container {
+    position: absolute;
+    top: 200px;
+    left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-text-container .dashed-text {
+    font-size: 12px;
+    font-family: 'Arial', sans-serif;
+    color: rgb(67, 38, 14);
+    border-style: dashed;
+    padding: 8px;
+}
+
+.title-text-container .title-text-top {
+    font-size: 100px;
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(67, 38, 14);
+    letter-spacing: -2px;
+    margin-left: -7px;
+    margin-top: 12px;
+    text-shadow: 3px 3px rgb(249, 221, 202);
+}
+
+.title-text-container .title-text-bottom {
+    font-size: 50px;
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(67, 38, 14);
+    letter-spacing: -2px;
+    margin-top: -35px;
+    text-shadow: 3px 3px rgb(249, 221, 202);
+}
+
+.burgers-promo {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    justify-content: center;
+    padding-left: 5%;
+    gap: 35px;
+}
+
+.burgers-promo .most-popular {
+    height: 341.5px;
+    border-radius: 7px;
+}
+
+.burgers-promo .right-side {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.burgers-promo .right-side .fun-and-taste {
+    width: 90%;
+    border-radius: 7px;
+}
+
+.burgers-promo .right-side .fresh-and-chili {
+    width: 90%;
+    border-radius: 7px;
+}
+
+.burgers-promo .most-popular-text-container {
+    position: absolute;
+    top: 18px;
+    left: 270px;
+}
+
+.burgers-promo .right-side .fun-and-taste-text-container {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.burgers-promo .right-side .fresh-and-chili-text-container {
+    position: absolute;
+    top: 200px;
+    left: 15px;
+}
+
+.burgers-promo .try-today {
+    font-size: 15px;
+    color: white;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.burgers-promo .most-popular-text {
+    font-size: 23px;
+    font-family: 'Arial Black', sans-serif;
+    color: white;
+}
+
+.burgers-promo .fun-and-taste-text {
+    font-size: 23px;
+    font-family: 'Arial Black', sans-serif;
+    color: white;
+    line-height: 1;
+}
+
+.burgers-promo .fresh-and-chili-text {
+    font-size: 23px;
+    font-family: 'Arial Black', sans-serif;
+    color: white;
+}
+
+.caption-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 63px;
+}
+
+.caption-container .highlight-text {
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(67, 38, 14);
+    letter-spacing: -1px;
+    background-color: rgb(255, 179, 0);
+    padding: 8px;
+}
+
+.caption-container p:first-of-type {
+    font-size: 47px;
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(67, 38, 14);
+    margin-top: 10px;
+}
+
+.caption-container p:last-child {
+    width: 60%;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    color: rgb(114, 65, 24);
+    text-align: center;
+}
+
+.burger-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 33px;
+}
+
+.burger-card-container .burger-card {
+    width: 450px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger-card-container .burger-card img {
+    width: 80%;
+    height: 100%;
+}
+
+.burger-card-container .burger-card span {
+    font-size: 20px;
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(67, 38, 14);
+    margin-top: 10px;
+}
+
+.burger-card-container .burger-card p {
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+    color: rgb(114, 65, 24);
+    text-align: center;
+    margin-top: 5px;
+}
+
+.burger-card-container .burger-card button {
+    width: 40%;
+    background-color: rgb(223, 4, 4);
+    color: white;
+    font-size: 17px;
+    font-family: 'Arial Black', sans-serif;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 12px;
+}
+
+.events-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    width: 75%;
+    margin-left: 14%;
+    gap: 35px;
+    box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.1),
+                -0.5px 0px 30px rgba(0, 0, 0, 0.1); 
+    padding: 20px 20px 20px 50px;
+    margin-bottom: 100px;
+}
+
+.events-container .events-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.events-container .events-text span:first-child {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    color: rgb(16, 9, 3);
+}
+
+.events-container .events-text span:last-of-type {
+    font-size: 40px;
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(67, 38, 14);
+    margin-top: -15px;
+    margin-left: -1.5px;
+    letter-spacing: -3px;
+}
+
+.events-container .events-text p {
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+    color: rgb(38, 22, 7);
+    margin-top: 15px;
+}
+
+.events-container .events-text .circles {
+    margin-top: 70px;
+}
+
+.events-container .events-text .circles span {
+    display: inline-flex;
+    align-items: center;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(209, 208, 208);
+    border-radius: 50%;
+}
+
+.events-container .events-text .circles span:first-child {
+    background-color: rgb(246, 190, 8);
+}
+
+.events-container img {
+    width: 48%;
+    height: auto;
+}
+
+.find-table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 33%;
+    margin-left: 4.5%;
+    height: 100px;
+}
+
+.find-table-container span:first-child {
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    color: rgb(67, 38, 14);
+}
+
+.find-table-container span:last-of-type {
+    font-size: 40px;
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(67, 38, 14);
+    margin-top: -10px;
+}
+
+.find-table {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.find-table-leftside, .find-table-rightside {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.find-table input {
+    width: 350px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid rgb(151, 151, 151);
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+}
+
+.find-table input::placeholder {
+    color: rgba(0, 0, 0, 0.755)
+}
+
+.find-table button {
+    width: 350px;
+    height: 50px;
+    background-color: rgb(223, 4, 4);
+    color: white;
+    font-size: 17px;
+    font-family: 'Arial Black', sans-serif;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.ketchup-img {
+    position: relative;
+    top: -250px;
+    left: -40%;
+}
+
+.burger-img {
+    position: relative;
+    top: -580px;
+    right: -41.38%;
+}
+
+.footer-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../template/content/section_5.png');
+    margin: -50px 50px 50px 60px;
+    height: 600px;
+    background-size: cover;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-content-top {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+.footer-content-top .top-leftside {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content-top .top-leftside p {
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 60%;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.footer-content-top .top-rightside {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 120px;
+    margin-top: 250px;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.footer-content-top .top-rightside span:first-child {
+    width: 380px;
+}
+
+.footer-content-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 220px;
+    margin-left: 75px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.logo-footer span {
+    display: flex;
+    font-size: 45px;
+    margin-left: 120px;
+    margin-top: 100px;
+    font-family: 'Arial Black', sans-serif;
+    color: white;
+    letter-spacing: -1px;
+}
