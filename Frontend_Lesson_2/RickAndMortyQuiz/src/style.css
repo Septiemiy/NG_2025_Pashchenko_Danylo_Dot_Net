@@ -142,3 +142,63 @@ button:focus-visible {
 .quiz-button {
   margin-top: 20px;
 }
+
+#localStorage {
+  position: fixed;
+  text-align: center;
+  left: 15%;
+  top: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 7px 3px 7px 3px;
+  border-radius: 5px;
+}
+
+.correct {
+  color: #00ff00;
+  font-size: 18px;
+  font-weight: bold;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 7px 3px 7px 3px;
+}
+
+.incorrect {
+  color: rgb(243, 35, 35);
+  font-size: 18px;
+  font-weight: bold;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 7px 3px 7px 3px;
+}
+
+.unanswered {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: bold;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 7px 3px 7px 3px;
+}
+
+#difficultySelect {
+  position: fixed;
+  right: 5%;
+  top: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 7px 5px 7px 5px;
+  border-radius: 5px;
+}
+
+.difficulty-radio {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.difficulty-label {
+  font-weight: bold;
+  font-size: 20px;
+}
